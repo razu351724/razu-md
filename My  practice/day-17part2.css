@@ -1,0 +1,49 @@
+*{padding: 0px;
+    margin: 0px;}
+
+
+.full-website{
+    text-align: center;
+    color: whitesmoke;
+    width: 1024px;
+    margin:0px auto ;
+}
+
+.razu ul li{
+    display: inline-block;
+   margin: 10px;
+  
+    background-color: rgb(127, 255, 157);
+    color: rgb(255, 128, (0, 123, 255)0);}
+    .razu{ background-color:rgb(127, 255, 157);}
+
+
+    a{text-decoration: none;
+    }
+.menu{
+    background-color: aqua;
+}
+.banner img{
+    margin-bottom: -5px;
+    max-width: 100%;
+}
+.container{background-color: blueviolet;}
+.footer{background-color: rgb(226, 43, 144);}
+.xp{
+    padding: 20px;
+}
+.flag{
+    background-color: green;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+.read{background-color: red;
+        height: 100px;
+    width: 100px;
+   display: inline-block;
+   border: 3px blueviolet solid;
+border-radius: 50%;}
+

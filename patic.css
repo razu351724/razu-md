@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    background: #9b59b6;
+}
+.header-logo img {
+    width: 250px;
+}
+.col-md-8 {
+}
+.col-md-8 ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.col-md-8 ul li {
+    display: inline-block;
+    border-right: 1px solid #dff9fb;
+    margin-right: -4px;
+}
+.col-md-8 ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 85px;
+}
+.col-md-8 ul li a:hover {
+    background: #22a6b3;
+}
+.banner {
+    background-image: url(https://i.ibb.co/4g3hX5c/Laptop-Babber.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin-bottom: -35px;
+}
+.about {
+    background: #dff9fb;
+}
+.about h2 {
+    font-size: 40px;
+    margin-top: auto;
+}
+.about p {
+    max-width: 700px;
+    margin: auto;
+}
+.service {
+    background: whitesmoke;
+}
+.service .card {
+    border: 1px solid #95afc0;
+}
+.service span {
+    background: #16a085;
+    width: 60px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 35px;
+    border-radius: 15px 0 15px 0;
+    color: whitesmoke;
+}
+.content {
+    margin-top: 20px;
+}
+.content img {
+    max-width: 100%;
+}
+.product-right {
+}
+.product-right h2 {
+    background: #bdc3c7;
+    border-bottom: 1px solid #b79905;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.product-right ul {
+    list-style: none;
+}
+.product-right ul li {
+    background: #95afc0;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.footer {
+    background: #130f40;
+    color: #fff;
+}
+.footer h2 {
+}
+.footer ul {
+    text-align: right;
+}
+.footer ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 15px;
+    display: inline-block;
+}
+.contact-from input {
+    font-size: 20px;
+}
+

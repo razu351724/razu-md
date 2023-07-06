@@ -1,0 +1,47 @@
+*{padding: 0;
+margin: 0;
+}
+.have{
+    margin: 50px auto;
+    width: 1000px;
+    border: 1px solid red;
+    text-align: center; 
+
+}
+.come{
+    background-color: rgb(2, 14, 28);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    transition: .5s;
+   
+}
+.div1:hover{transform: translateY(20px);}
+.div2:hover{transform: rotate(50deg);}
+.div3:hover{transform: skewY(20deg);}
+.div4:hover{ transform: scale(1.5);}
+
+.img-wrapper{
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+
+
+
+
+
+
+}
+.img-wrapper img{
+    max-width: 100%;
+    transition: .5s;
+ }
+ .img-wrapper img:hover{
+transform: scale(1.5)rotateY(50deg);
+
+
+
+ }
+

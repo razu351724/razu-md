@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+    color: aqua;
+    background-color: blueviolet;
+    font-size: 30px;
+
+}
+h1::before{
+    content: ' Before-';
+    font-size: 30px;
+    
+}
+
+h1::after{
+    content: '-After';
+    font-size: 30px;
+    
+}
+p{
+    color: azure;
+    background-color: chartreuse;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+
+}
+p::before{
+    content: '"';
+    font-size: 20px;
+    color: red;
+}
+p::after{
+    content: '"';
+    font-size: 20px;
+    color: red;
+}
+.button-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.button-div a{font-size: 50px;
+    text-decoration:none;
+   background-color: darkorange;
+   padding: 15px 40px;
+   display: inline-block;
+   border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button-div a::before{
+content:"" ;
+height: 100%;
+width: 0;
+background-color: crimson;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 10px;
+transition: .5s;
+z-index: -1;
+
+}
+ a:hover::before{
+    width: 100%;
+  
+}

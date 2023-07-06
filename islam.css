@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: darkblue;
+    color: white;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: capitalize;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0px 15px;
+    background-color: brown;
+    
+}
+.banner-text{
+    margin-left: 15px;
+}
+
+body{
+    
+}
+
+
+.div-container{
+    display: flex;
+   justify-content: space-between;
+}

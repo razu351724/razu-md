@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+.container{
+    background: url(./photo/2016photo.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.top-header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(4,121,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    }
+
+    .header-left{width: 30%;}
+    .header-left a{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+    }
+    .header-left a img{width: 100px}
+    .header-left a h1{
+        color: #fff;
+        font-family: cursive;
+    }
+
+    .header-righ{width: 50%;}
+    .header-righ ul{  
+        list-style: none;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    
+    }
+    /* .header-righ ul li{
+        display: inline-block;
+    }
+    .header-righ ul li a{
+        display:block;
+        color: #fff;
+        padding: 0px 20px;
+    } */
+

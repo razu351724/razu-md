@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clerfix::after{
+ content: "";   
+ clear: both; 
+ display: block;   
+
+}
+.fix-with{
+    width: 1200px;
+    margin: auto;
+}
+.align-center{text-align: center;}
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+
+.header{
+background-color: #3498db;    
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 200px;
+    height: auto;
+}
+
+
+
+.header-right{ 
+    float: right;
+    width: 70%;
+   
+}
+.header-right ul{
+    text-align: right;
+   
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+   
+}
+.header-right ul li a{
+text-decoration: none; 
+padding:0 30px;  
+color: #fff; 
+line-height: 74px;
+border-right: 1px solid #34495e;
+display: block;
+font-size: 20px;
+
+}
+.header-right ul li a:hover {
+    background: #44ad88;
+}
+.banner{
+    background: url(photo/Banner-Batterien.webp)no-repeat  center ;
+   
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner-tex h2{
+    background-color: #7f8c8d;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.banner-tex h1{
+    background-color:#7f8c8d ;
+    max-width:400px ;
+    margin: auto;
+   margin-top: 10px;
+   font-size: 30px;
+   border-radius: 10px;
+   color: #fff;
+}
+.about{
+    background: #bdc3c7;
+    padding: 20px 0;
+
+
+}
+.about h2{
+    font-size: 38px;
+ 
+}
+.about p{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.service{
+    background-color:#f9f9f9; 
+    padding: 80px;
+}
+.service-item{
+    width: 31.3%;
+    float: left;
+    border: 1px solid #95a5a6;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box; 
+    padding: 25px 10px;
+}
+.service-item span i{
+   height: 60px; 
+   width: 60px;
+   background: #3498db;
+   color: #fff;
+   line-height: 60px;
+   font-size: 35px;
+   border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    font-size: 30px;
+   margin: 15px 0;
+}
+.service-item p{
+    font-size: 20px;
+}
+
+
+
+.blog-container{
+   
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+
+}
+.blog-right-notificaiton{
+    float: right;
+    width: 25%;
+} 
+.blog-item {
+ margin-bottom: 30px;  
+}
+.blog-item img{
+    float: left;
+    width: 160px; 
+    height: auto;
+    margin-right: 15px;
+}
+.blog-left-notificaiton{
+    
+}
+.blog-left-notificaiton h2{
+    font-size: 30px;
+    border-bottom: 1px solid rgb(210, 111, 30);
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    
+}
+
+
+.blog-left-notificaiton ul{list-style: none;}
+.blog-left-notificaiton ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+
+}
+.footer{
+     background: #2c3e50;
+    color: #fff;
+    padding: 15px 0; 
+}
+.footer-left{ 
+float: left;
+width: 40%;
+
+}
+
+
+.footer-righ{
+    float: right;
+    width:60% ;
+}
+.social-menu{
+    text-align: right;
+
+}
+.social-menu li{
+    display: inline-block;
+    list-style: none;
+
+}
+.social-menu li{
+    list-style: none;   
+}
+ .social-menu  a{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+

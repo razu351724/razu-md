@@ -1,0 +1,29 @@
+*{padding: 0px;
+  margin: 0px;  
+}
+ul{ text-align: center;background-color: rgb(0, 140, 255);}
+ul li{
+        display: inline-block;
+      
+}
+ul li a{background-color: aqua;
+        color: rgb(208, 60, 30);
+        padding: 20px 40px;
+        display: inline-block;
+        margin-right: -5px;
+        text-decoration: none;
+    }
+    .razu{
+      background-image: url(https://image.shutterstock.com/image-photo/female-hands-typing-on-laptop-260nw-1729282783.jpg);  
+      padding: 200px 0px;
+      background-position: top center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+     }
+    
+
+
+     .tass{height: 1000px;}
+  
